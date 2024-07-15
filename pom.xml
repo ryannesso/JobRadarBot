@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.ryannesso</groupId>
 	<artifactId>jobradar-tg-bot</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.2.0-SNAPSHOT</version>
 	<name>JobRadar-Telegram-Bot</name>
 	<description>JRBT - is a Telegram bot that can track and notify you about new job openings on Telegram.</description>
 	<url/>
