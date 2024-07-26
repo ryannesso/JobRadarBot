@@ -6,7 +6,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 public class StopCommand implements Command {
     private final SendMessageService sendMessageService;
 
-    public static final String START_MESSAGE = "bye-bye, world!";
+    public static final String STOP_MESSAGE = "bye-bye, world!";
 
     public StopCommand(SendMessageService sendMessageService) {
         this.sendMessageService = sendMessageService;
@@ -14,6 +14,6 @@ public class StopCommand implements Command {
 
     @Override
     public void execute(Update update) {
-        sendMessageService.sendMessage(update.getMessage().getChatId().toString(), START_MESSAGE);
+        sendMessageService.sendMessage(update.getMessage().getChatId().toString(), STOP_MESSAGE);
     }
 }
