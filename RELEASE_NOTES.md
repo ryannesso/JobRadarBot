@@ -1,6 +1,8 @@
 # release notes
 
 ## 0.3.0-SNAPSHOT
+* Added all needed code and infrastructure for the Repository layer. Related to issue #7
+* update Docker files, ithers files and added DB
 * added deployment process to the project
 
 ## 0.2.0-SNAPSHOT
